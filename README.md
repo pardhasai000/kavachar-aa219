@@ -82,46 +82,5 @@ Miners who pass the competency assignment ($\ge 80\%$) automatically earn the of
 
 ---
 
-## 🚀 Running the Project Locally
-
-### 1. Start the Platform
-
-```bash
-npm start
-```
-
-- **Local Application Link**: 👉 **[http://localhost:5000](http://localhost:5000)**
-- **API Health Endpoint**: [http://localhost:5000/api/health](http://localhost:5000/api/health)
-- **Sample Verified QR Dossier**: [http://localhost:5000/verify/c7e849b2-38b4-4b51-9318-7a523b499182](http://localhost:5000/verify/c7e849b2-38b4-4b51-9318-7a523b499182)
-
-### 2. Run Automated Verification Tests
-
-```bash
-npm test
-```
-
-All 8 end-to-end tests validate authentication, mine tracking, 3D simulation submissions, multilingual evaluation, and cryptographic QR verification.
-
----
-
-## ☁️ Deployment on Netlify
-
-This repository is pre-configured with `netlify.toml` and SPA `_redirects`:
-
-1. **GitHub Repository**: 👉 **[https://github.com/pardhasai000/kavachar](https://github.com/pardhasai000/kavachar)**
-2. **1-Click Netlify Deploy**: 👉 **[Deploy Kavachar to Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/pardhasai000/kavachar)**
-3. When connected, any push to `main` automatically triggers Netlify continuous deployment!
-
----
-
-## 👥 Demo Personas
-
-| Persona                        | Role                                 | Default Account                          |
-| ------------------------------ | ------------------------------------ | ---------------------------------------- |
-| **Dr. V. K. Sharma**           | Director General (Admin)             | `admin@safety.gov.in` / `admin123`       |
-| **Rajesh Kumar / Bablu Soren** | Coalface Miner (Worker)              | `rajesh.kumar@plant.in` / `worker123`    |
-| **Er. Ananya Patil**           | Colliery Safety Inspector (Verifier) | `inspector.patil@audit.org` / `audit123` |
-
----
-
-_Developed for the Government of Jharkhand Department of Mines & Geology under Problem Statement 41 (PS-41)._
+## 🚀 Mobile application link :
+https://glowing-shortbread-eb3f9e.netlify.app/
